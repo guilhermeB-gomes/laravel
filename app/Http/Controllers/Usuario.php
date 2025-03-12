@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Principal extends Controller
+class Usuario extends Controller
 {
-    function principal(){
-       return View('principal');
+    function conectar(){
+       return View('conectado');
     }
 
     function desconectar(){
