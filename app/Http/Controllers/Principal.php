@@ -4,12 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Principal extends Controller
+class Usuario extends Controller
 {
-    function principal(){
-        echo 'Página Principal';
+    function conectar(){
+        return View('Principal');
     }
-    function teste(){
-        echo "testado";
+    function desconectar(){
+        return View('testado do usuario');
     }
 }

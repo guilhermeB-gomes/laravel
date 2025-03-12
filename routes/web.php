@@ -14,5 +14,7 @@ use App\Http\Middleware\LogAcessoMiddleware;
 */
 
 Route::get('/', [App\Http\Controllers\Principal::clapss, 'principal']);
-Route::get('/teste', [App\Http\Controllers\Principal::class, 'teste']);
+Route::get('/teste', [App\Http\Controllers\Principal::clapss, 'teste']);
+Route::get('/conectar', [App\Http\Controllers\Usuario::class, 'conectar']);
+Route::get('/desconectar', [App\Http\Controllers\Usuario::class, 'desconectar']);
 
