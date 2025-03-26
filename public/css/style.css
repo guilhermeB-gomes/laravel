@@ -1,0 +1,51 @@
+
+      body {
+        background-color: #F4E2DE;
+        color: #025259;
+      }
+      .navbar {
+        background-color: #007172;
+      }
+      .navbar a {
+        color: #F4E2DE;
+      }
+      .register-section {
+        max-width: 600px;
+        margin: 100px auto;
+        padding: 40px;
+        background-color: #F4E2DE;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .register-section h2 {
+        color: #025259;
+        margin-bottom: 20px;
+      }
+      .form-label {
+        color: #025259;
+      }
+      .form-control {
+        border: 1px solid #007172;
+        background-color: #FFF;
+      }
+      .btn-primary {
+        background-color: #F29325;
+        border: none;
+        color: #025259;
+        padding: 12px 20px;
+        border-radius: 5px;
+        width: 100%;
+      }
+      .btn-primary:hover {
+        background-color: #D94F04;
+        color: #F4E2DE;
+      }
+      .footer {
+        background-color: #025259;
+        color: #F4E2DE;
+        text-align: center;
+        padding: 20px 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
